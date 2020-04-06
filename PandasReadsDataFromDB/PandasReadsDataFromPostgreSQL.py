@@ -7,4 +7,5 @@ import pandas as pd
 conn = psycopg2.connect(database='test', user='postgres', password='123456')
 # 查询语句，选出public.tableName表中的所有数据
 sql = "select * from public.tableName"
-df = pd.read_sql_query(sql, con=conn)
+df = pd.read_sql(sql, con=conn)
+print(df)
