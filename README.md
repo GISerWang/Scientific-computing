@@ -5,6 +5,7 @@
 * numpy版本：1.16.0
 * scipy版本：0.19.1
 ## 1.2 项目说明
+* **data**：数据文件
 * **DistanceMatrix**：距离矩阵的计算
     * **DistanceMatrixBetweenTwoArrays**：利用scipy计算两个数组之间的距离矩阵
     * **DistanceMatrixOfAnArrayItself**：利用scipy计算一个数组自身的距离矩阵
